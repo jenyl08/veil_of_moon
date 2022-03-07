@@ -1,0 +1,98 @@
+table.type07 {
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  margin: 10px 00px;
+  width: 1200px;
+}
+table.type07 thead {
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  background: #957DAD;
+}
+table.type07 thead th {
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  color: #fff;
+}
+
+table.type07 tbody th {
+  width: 960;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  background: #fcf1f4;
+}
+table.type07 td {
+  width: 350px;
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+
+table.type06 {
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+}
+table.type06 tbody th {
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+
+table.type05 {
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 20;
+}
+table.type05 tbody th {
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+  font-size: 20;
+}
+
+body {
+background-color: black; 
+ background-image: linear-gradient(to right, black, #808080);
+ color:#FFFFFF;
+ }
+
+a {
+color: white;
+ }
+
+
+
+/* --- disqus css -- */
+
+#disqus_thread {
+color: #000000;
+border-style: 0px solid;
+border-color: #cccccc;
+padding: 5px;
+}
+
+#dsq-content #dsq-comments .dsq-comment-body {
+color: #fff;
+background-color: #000000;
+}
+
+.dsq-reaction-body {
+color: #fff;
+}
+
+.dsq-reaction-header cite, .dsq-reaction-header span {
+color: #ccc;
+}
+
+.dsq-reaction-retweets {
+color: #ccc;
+}
+
+/*--- end disqus css --*/
