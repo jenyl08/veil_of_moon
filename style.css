@@ -10,7 +10,8 @@ body {
   -o-text-size-adjust : none;  /* 오페라 구버전 */
   
   background-color: white; 
-  background-image: linear-gradient(to right, black, #808080 80%, black);
+  background-image: linear-gradient(to right, black, #808080);
+  background-size: 150%;
 
   color:#FFFFFF;
 
