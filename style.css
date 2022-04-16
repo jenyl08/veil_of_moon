@@ -1,3 +1,11 @@
+body {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+
 table.type07 {
   border-collapse: collapse;
   text-align: left;
@@ -39,6 +47,17 @@ table.type06 {
   line-height: 1.5;
 }
 table.type06 tbody th {
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+
+table.type06-2 {
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+}
+table.type06-2 tbody th {
   font-weight: bold;
   text-align: right;
   vertical-align: top;
