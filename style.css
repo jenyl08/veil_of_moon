@@ -1,10 +1,35 @@
 body {
-  width: 100%;
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 auto;  
   background-color: white;
+
+  -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
+  -ms-text-size-adjust : none;  /* IE */
+  -moz-text-size-adjust : none;  /* 파이어폭스 */
+  -o-text-size-adjust : none;  /* 오페라 구버전 */
+  
+  background-color: black; 
+  background-image: linear-gradient(to right, black, #808080);
+
+  color:#FFFFFF;
+
 }
 
+	  
+a {
+color: white;
+ }
+
+table.jt {
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  margin: 10px 00px;
+  width: 1200px;
+}
 
 table.type07 {
   border-collapse: collapse;
@@ -38,19 +63,21 @@ table.type07 td {
   width: 350px;
   padding: 10px;
   vertical-align: top;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; 
 }
 
 table.type06 {
+  width: 1200px;
   border-collapse: collapse;
   text-align: left;
-  line-height: 1.5;
+  line-height: 1.5;   
 }
 table.type06 tbody th {
   font-weight: bold;
   text-align: right;
-  vertical-align: top;
+  vertical-align: top;   
 }
+
 
 table.type06-2 {
   border-collapse: collapse;
@@ -63,7 +90,28 @@ table.type06-2 tbody th {
   vertical-align: top;
 }
 
+table.type06-3 {
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+}
+table.type06-3 tbody th {
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+  font-size: 20;
+}
+
+table.type06-3 tbody td {
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+  font-size: 20;
+
+}
+
 table.type05 {
+  width: 1200px;
   border-collapse: collapse;
   text-align: left;
   line-height: 1.5;
@@ -75,16 +123,6 @@ table.type05 tbody th {
   vertical-align: top;
   font-size: 20;
 }
-
-body {
-background-color: black; 
- background-image: linear-gradient(to right, black, #808080);
- color:#FFFFFF;
- }
-
-a {
-color: white;
- }
 
 
 
