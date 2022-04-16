@@ -2,16 +2,15 @@ body {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 auto;  
-  background-color: white;
+  padding: 0 auto;   
 
   -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
   -ms-text-size-adjust : none;  /* IE */
   -moz-text-size-adjust : none;  /* 파이어폭스 */
   -o-text-size-adjust : none;  /* 오페라 구버전 */
   
-  background-color: black; 
-  background-image: linear-gradient(to right, black, #808080);
+  background-color: white; 
+  background-image: linear-gradient(to right, black, #808080 80%, black);
 
   color:#FFFFFF;
 
