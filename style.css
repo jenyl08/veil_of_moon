@@ -1,3 +1,37 @@
+
+nav{
+     position: fixed;  
+}
+
+ul { 
+  background-color: #000000;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+} 
+li {
+  float: left;
+} 
+
+li a {
+  display: block;
+  background-color: #FFDAB9;
+  color: #000000;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+} 
+li a.current {
+  background-color: #FF6347;
+  color: white;
+} 
+li a:hover:not(.current) {
+  background-color: #CD853F;
+  color: white;
+}
+
 body {
   max-width: 1200px;
   width: 100%;
@@ -20,6 +54,7 @@ body {
 	  
 a {
 color: white;
+scroll-margin-top: 42px;
  }
 
 table.jt {
@@ -48,8 +83,9 @@ table.type07 thead th {
   padding: 10px;
   font-weight: bold;
   vertical-align: top;
-  color: #fff;
+  color: #ffffff;
 }
+
 
 table.type07 tbody th {
   width: 960;
